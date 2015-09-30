@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
 	device/samsung/kylepro/ramdisk/init.bcm2166x.usb.rc:root/init.bcm2166x.usb.rc \
 	device/samsung/kylepro/ramdisk/init.log.rc:root/init.log.rc \
 	device/samsung/kylepro/ramdisk/lpm.rc:root/lpm.rc \
-	device/samsung/kyleprods/ramdisk/charger:root/charger \
+	device/samsung/kylepro/ramdisk/charger:root/charger \
 	device/samsung/kylepro/ramdisk/ueventd.hawaii_ss_kylepro.rc:root/ueventd.hawaii_ss_kylepro.rc
 	
 PRODUCT_COPY_FILES += \
