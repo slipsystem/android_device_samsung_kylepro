@@ -150,6 +150,23 @@ BOARD_SUPPRESS_EMMC_WIPE := true
 BOARD_HAVE_FM_RADIO := true
 BOARD_FM_DEVICE := bcm4329
 
+# TWRP
+#TARGET_RECOVERY_FSTAB := device/samsung/kylepro/ramdisk/twrp.fstab.hawaii_ss_kylepro
+DEVICE_RESOLUTION := 480x800
+TW_MAX_BRIGHTNESS := 255
+TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/battery
+TW_BRIGHTNESS_PATH := /sys/class/backlight/panel/brightness
+RECOVERY_SDCARD_ON_DATA := true
+TW_NO_REBOOT_BOOTLOADER := true
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_INTERNAL_STORAGE_PATH := /data/media
+TW_INTERNAL_STORAGE_MOUNT_POINT := data
+TW_EXTERNAL_STORAGE_PATH := /external_sd
+TW_EXTERNAL_STORAGE_MOUNT_POINT := external_sd
+TW_DEFAULT_EXTERNAL_STORAGE := true
+BOARD_HAS_NO_REAL_SDCARD := true
+HAVE_SELINUX := true
+
 # Vold
 BOARD_UMS_LUNFILE := /sys/class/android_usb/f_mass_storage/lun0/file
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun/file
