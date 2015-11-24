@@ -181,20 +181,3 @@ TARGET_USES_LOGD                            := false
 # SELinux
 BOARD_SEPOLICY_DIRS += \
     device/samsung/kylepro/sepolicy
-
-BOARD_SEPOLICY_UNION += \
-    file_contexts \
-    property_contexts \
-    bkmgrd.te \
-    device.te \
-    surfaceflinger.te \
-    bluetooth.te \
-    geomagneticd.te \
-    gpsd.te \
-    init.te \
-    immvibed.te \
-    kernel.te \
-    macloader.te \
-    rild.te \
-    shell.te \
-    system_server.te
