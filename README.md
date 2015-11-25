@@ -1,4 +1,5 @@
-# CM12.1 Device tree for GT-S7580
+# CM13.0 Device tree for GT-S7580
+*UNDERDEVELOPMENT*
 
 ### Spec:
   - Platform: HAWAII (BROADCOM)
